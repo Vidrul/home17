@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		18A4E2E22414085E00C8E8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E2E12414085E00C8E8DB /* AppDelegate.swift */; };
 		18A4E2E42414085E00C8E8DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E2E32414085E00C8E8DB /* SceneDelegate.swift */; };
-		18A4E2E62414085E00C8E8DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E2E52414085E00C8E8DB /* ViewController.swift */; };
+		18A4E2E62414085E00C8E8DB /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E2E52414085E00C8E8DB /* TimerViewController.swift */; };
 		18A4E2E92414085E00C8E8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4E2E72414085E00C8E8DB /* Main.storyboard */; };
 		18A4E2EB2414085E00C8E8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4E2EA2414085E00C8E8DB /* Assets.xcassets */; };
 		18A4E2EE2414085E00C8E8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4E2EC2414085E00C8E8DB /* LaunchScreen.storyboard */; };
+		18CA9CE22416752200435060 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9CE12416752200435060 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18A4E2DE2414085E00C8E8DB /* home17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = home17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A4E2E12414085E00C8E8DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A4E2E32414085E00C8E8DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18A4E2E52414085E00C8E8DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A4E2E52414085E00C8E8DB /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		18A4E2E82414085E00C8E8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A4E2EA2414085E00C8E8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A4E2ED2414085E00C8E8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A4E2EF2414085E00C8E8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA9CE12416752200435060 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				18A4E2E12414085E00C8E8DB /* AppDelegate.swift */,
 				18A4E2E32414085E00C8E8DB /* SceneDelegate.swift */,
-				18A4E2E52414085E00C8E8DB /* ViewController.swift */,
+				18A4E2E52414085E00C8E8DB /* TimerViewController.swift */,
+				18CA9CE12416752200435060 /* ColorViewController.swift */,
 				18A4E2E72414085E00C8E8DB /* Main.storyboard */,
 				18A4E2EA2414085E00C8E8DB /* Assets.xcassets */,
 				18A4E2EC2414085E00C8E8DB /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A4E2E62414085E00C8E8DB /* ViewController.swift in Sources */,
+				18A4E2E62414085E00C8E8DB /* TimerViewController.swift in Sources */,
 				18A4E2E22414085E00C8E8DB /* AppDelegate.swift in Sources */,
+				18CA9CE22416752200435060 /* ColorViewController.swift in Sources */,
 				18A4E2E42414085E00C8E8DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = David.home17;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = David.home17;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
